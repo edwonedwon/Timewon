@@ -21,7 +21,22 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
+    @IBOutlet weak var timeLabel: NSTextField!
 
+    @IBAction func startTrackingTime(sender: AnyObject) {
+       timeLabel.stringValue = getCurrentTime()
+        println("printing a dipe")
+    }
+    
+    func getCurrentTime() -> String
+    {
+        let date = NSDate()
+        let formatter = NSDateFormatter()
+        formatter.timeStyle = NSDateFormatterStyle.ShortStyle
+        var stringValue = formatter.stringFromDate(date)
+        
+        return stringValue
+    }
 
 }
 

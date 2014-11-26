@@ -34,6 +34,7 @@
 		EBBAE55E1A26035900F457B3 /* TimewonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimewonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBBAE5631A26035900F457B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBBAE5641A26035900F457B3 /* TimewonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimewonTests.swift; sourceTree = "<group>"; };
+		EBBAE56F1A2603B600F457B3 /* time tracking test.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "time tracking test.playground"; path = "../../time tracking test.playground"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +76,7 @@
 		EBBAE54E1A26035900F457B3 /* Timewon */ = {
 			isa = PBXGroup;
 			children = (
+				EBBAE56E1A26038000F457B3 /* Playgrounds */,
 				EBBAE5511A26035900F457B3 /* AppDelegate.swift */,
 				EBBAE5531A26035900F457B3 /* ViewController.swift */,
 				EBBAE5551A26035900F457B3 /* Images.xcassets */,
@@ -107,6 +109,14 @@
 				EBBAE5631A26035900F457B3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBBAE56E1A26038000F457B3 /* Playgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				EBBAE56F1A2603B600F457B3 /* time tracking test.playground */,
+			);
+			name = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
