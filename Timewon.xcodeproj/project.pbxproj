@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBBAE5521A26035900F457B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBAE5511A26035900F457B3 /* AppDelegate.swift */; };
+		EBBAE5541A26035900F457B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBAE5531A26035900F457B3 /* ViewController.swift */; };
+		EBBAE5561A26035900F457B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBBAE5551A26035900F457B3 /* Images.xcassets */; };
+		EBBAE5591A26035900F457B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBBAE5571A26035900F457B3 /* Main.storyboard */; };
+		EBBAE5651A26035900F457B3 /* TimewonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBBAE5641A26035900F457B3 /* TimewonTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBBAE55F1A26035900F457B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBBAE5441A26035900F457B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBBAE54B1A26035900F457B3;
+			remoteInfo = Timewon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBBAE54C1A26035900F457B3 /* Timewon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Timewon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBAE5501A26035900F457B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBBAE5511A26035900F457B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBBAE5531A26035900F457B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EBBAE5551A26035900F457B3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EBBAE5581A26035900F457B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBBAE55E1A26035900F457B3 /* TimewonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimewonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBBAE5631A26035900F457B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBBAE5641A26035900F457B3 /* TimewonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimewonTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBBAE5491A26035900F457B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBAE55B1A26035900F457B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBBAE5431A26035900F457B3 = {
+			isa = PBXGroup;
+			children = (
+				EBBAE54E1A26035900F457B3 /* Timewon */,
+				EBBAE5611A26035900F457B3 /* TimewonTests */,
+				EBBAE54D1A26035900F457B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBBAE54D1A26035900F457B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBBAE54C1A26035900F457B3 /* Timewon.app */,
+				EBBAE55E1A26035900F457B3 /* TimewonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBBAE54E1A26035900F457B3 /* Timewon */ = {
+			isa = PBXGroup;
+			children = (
+				EBBAE5511A26035900F457B3 /* AppDelegate.swift */,
+				EBBAE5531A26035900F457B3 /* ViewController.swift */,
+				EBBAE5551A26035900F457B3 /* Images.xcassets */,
+				EBBAE5571A26035900F457B3 /* Main.storyboard */,
+				EBBAE54F1A26035900F457B3 /* Supporting Files */,
+			);
+			path = Timewon;
+			sourceTree = "<group>";
+		};
+		EBBAE54F1A26035900F457B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBBAE5501A26035900F457B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBBAE5611A26035900F457B3 /* TimewonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBBAE5641A26035900F457B3 /* TimewonTests.swift */,
+				EBBAE5621A26035900F457B3 /* Supporting Files */,
+			);
+			path = TimewonTests;
+			sourceTree = "<group>";
+		};
+		EBBAE5621A26035900F457B3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBBAE5631A26035900F457B3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBBAE54B1A26035900F457B3 /* Timewon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBBAE5681A26035900F457B3 /* Build configuration list for PBXNativeTarget "Timewon" */;
+			buildPhases = (
+				EBBAE5481A26035900F457B3 /* Sources */,
+				EBBAE5491A26035900F457B3 /* Frameworks */,
+				EBBAE54A1A26035900F457B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Timewon;
+			productName = Timewon;
+			productReference = EBBAE54C1A26035900F457B3 /* Timewon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBBAE55D1A26035900F457B3 /* TimewonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBBAE56B1A26035900F457B3 /* Build configuration list for PBXNativeTarget "TimewonTests" */;
+			buildPhases = (
+				EBBAE55A1A26035900F457B3 /* Sources */,
+				EBBAE55B1A26035900F457B3 /* Frameworks */,
+				EBBAE55C1A26035900F457B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBBAE5601A26035900F457B3 /* PBXTargetDependency */,
+			);
+			name = TimewonTests;
+			productName = TimewonTests;
+			productReference = EBBAE55E1A26035900F457B3 /* TimewonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBBAE5441A26035900F457B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Edwon;
+				TargetAttributes = {
+					EBBAE54B1A26035900F457B3 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EBBAE55D1A26035900F457B3 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EBBAE54B1A26035900F457B3;
+					};
+				};
+			};
+			buildConfigurationList = EBBAE5471A26035900F457B3 /* Build configuration list for PBXProject "Timewon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBBAE5431A26035900F457B3;
+			productRefGroup = EBBAE54D1A26035900F457B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBBAE54B1A26035900F457B3 /* Timewon */,
+				EBBAE55D1A26035900F457B3 /* TimewonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBBAE54A1A26035900F457B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBAE5561A26035900F457B3 /* Images.xcassets in Resources */,
+				EBBAE5591A26035900F457B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBAE55C1A26035900F457B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBBAE5481A26035900F457B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBAE5541A26035900F457B3 /* ViewController.swift in Sources */,
+				EBBAE5521A26035900F457B3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBBAE55A1A26035900F457B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBAE5651A26035900F457B3 /* TimewonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBBAE5601A26035900F457B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBBAE54B1A26035900F457B3 /* Timewon */;
+			targetProxy = EBBAE55F1A26035900F457B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBBAE5571A26035900F457B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBBAE5581A26035900F457B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBBAE5661A26035900F457B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBBAE5671A26035900F457B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EBBAE5691A26035900F457B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Timewon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBBAE56A1A26035900F457B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Timewon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBBAE56C1A26035900F457B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimewonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timewon.app/Contents/MacOS/Timewon";
+			};
+			name = Debug;
+		};
+		EBBAE56D1A26035900F457B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TimewonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Timewon.app/Contents/MacOS/Timewon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBBAE5471A26035900F457B3 /* Build configuration list for PBXProject "Timewon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBAE5661A26035900F457B3 /* Debug */,
+				EBBAE5671A26035900F457B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBBAE5681A26035900F457B3 /* Build configuration list for PBXNativeTarget "Timewon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBAE5691A26035900F457B3 /* Debug */,
+				EBBAE56A1A26035900F457B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBBAE56B1A26035900F457B3 /* Build configuration list for PBXNativeTarget "TimewonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBBAE56C1A26035900F457B3 /* Debug */,
+				EBBAE56D1A26035900F457B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBBAE5441A26035900F457B3 /* Project object */;
+}
