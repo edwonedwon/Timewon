@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FC44332C-A876-4CA0-897C-CB29DB44209C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Timewon</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BF28E8A494A43B60B521D9C60766D0D6122D0594</key>
+		<string>https://github.com/edwonia/Timewon.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Timewon.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BF28E8A494A43B60B521D9C60766D0D6122D0594</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/edwonia/Timewon.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BF28E8A494A43B60B521D9C60766D0D6122D0594</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BF28E8A494A43B60B521D9C60766D0D6122D0594</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Timewon</string>
+		</dict>
+	</array>
+</dict>
+</plist>

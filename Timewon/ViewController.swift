@@ -19,13 +19,25 @@ class ViewController: NSViewController {
     override var representedObject: AnyObject? {
         didSet {
         // Update the view, if already loaded.
+
         }
     }
+    
+    var startTime = NSTimeInterval()
+    var timer = NSTimer()
+    
+    func updateTime()
+    {
+        var currentTime = NSDate.timeIntervalSinceReferenceDate()
+        var elapsedTime NSTimeInterval = currentTime - startTime
+        let minutes = UInt8(elapsedTime/60)
+    }
+    
+    
     @IBOutlet weak var timeLabel: NSTextField!
 
     @IBAction func startTrackingTime(sender: AnyObject) {
-       timeLabel.stringValue = getCurrentTime()
-        println("printing a dipe")
+        timeLabel.stringValue = getCurrentTime()
     }
     
     func getCurrentTime() -> String
